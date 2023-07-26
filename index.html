@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calmr</title>
+  </head>
+  <body>
+    <!--Heading-->
+    <h1>Calmr</h1>
+    <div class="container" id="container">
+      <!--Middle Circle-->
+      <div class="circle"></div>
+      <!--Text-->
+      <p id="text"></p>
+
+      <!--Pointer containing div-->
+      <div class="pointer-container">
+        <!--empty span to create round pointer circle-->
+        <span class="pointer"></span>
+      </div>
+      <!--Gradient circle-->
+      <div class="gradient-circle"></div>
+      <!--Gradient blur-->
+      <div class="gradient-circle-blur"></div>
+    </div>
+
+    <!--Audio for effects-->
+    <audio src="./audio/breathin.mp3" id="breathin"></audio>
+    <audio src="./audio/hold.mp3" id="hold"></audio>
+    <audio src="./audio/breatheout.mp3" id="breatheout"></audio>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
